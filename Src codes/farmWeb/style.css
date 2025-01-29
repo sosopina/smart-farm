@@ -1,0 +1,49 @@
+:root{
+    --color1:rgba(19, 208, 2, 0.628);
+    --color2:rgba(19, 208, 2, 0.948);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: var(--color2);
+    font-weight: bolder;
+}
+.login-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./back1.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    padding: 5rem;
+    background-color: rgb(231, 254, 229);
+    border-radius: 5%;
+    overflow: hidden;
+}
+#logbtn{
+    background-color: var(--color2);
+    font-weight: 500;
+    cursor: pointer;
+}
+.success{
+    display: none;
+    color: var(--color2);
+    transition: .8 ease-in-out;
+    overflow: hidden;
+    
+}
+.wrong{
+
+    display: none;
+    color: var(--color2);
+    transition: .8 ease-in-out;
+    overflow: hidden;
+}
